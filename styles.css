@@ -65,3 +65,42 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.37);
 }
+
+.section2 {
+  display: block;
+  width: 100%;
+  margin: 20px;
+}
+
+.latest-head {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  font-size: 28px;
+  letter-spacing: 0.12rem;
+}
+
+.latest-news {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 15px 0;
+}
+.latest-image {
+  width: 75px;
+  height: 75px;
+}
+
+.latest-text {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  padding-right: 80px;
+}
+
+.h4-span {
+  font-size: 13px;
+  color: #666;
+  padding-top: 20px;
+}
