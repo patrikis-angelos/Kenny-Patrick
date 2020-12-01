@@ -168,7 +168,7 @@
 .funds-price {
   background-color: rgba(248, 133, 113, 0.541);
   padding-left: 100px;
-  height: 60px;
+  height: 70px;
   padding-top: 10px;
 }
 
@@ -387,6 +387,10 @@
   color:black;
 }
 
+.appear {
+  display: none;
+}
+
 @media (min-width: 760px) {
   .nav1 {
     display: flex;
@@ -398,6 +402,10 @@
 
   .hide {
     display: none;
+  }
+
+  .appear {
+    display: inline;
   }
 
   .logo {
@@ -440,7 +448,7 @@
     display: flex;
     flex-wrap: wrap;
     flex: 0 1 auto;
-    margin: 0;
+    margin-top: 10px;
   }
   .latest-news {
     width: calc(33.3% - 20px);
@@ -461,8 +469,23 @@
     padding-right: 0;
     padding-top: 5px;
   }
+
   .latest-head {
-    margin-bottom: 19px;
+    margin-bottom: 0px;
     padding: 3px;
+  }
+  
+  .tag {
+    display: inline;
+  }
+
+  .sec-grid2 {
+    display: flex;
+    margin-top:10px;
+    width: 100%;
+  }
+
+  .funds {
+    margin-right: 20px;
   }
 }
