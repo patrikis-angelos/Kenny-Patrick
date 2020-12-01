@@ -43,6 +43,7 @@
   border-left: 1px solid gray;
   cursor: pointer;
   font-size: 20px;
+  background-color: white;
 }
 
 .orange {
@@ -441,7 +442,7 @@
     margin: 0 auto;
   }
   .section2 {
-    width: 100%;
+    width: calc(100%-10px);
     margin: 10px;
   }
   .sec-grid1 {
@@ -451,16 +452,16 @@
     margin-top: 10px;
   }
   .latest-news {
-    width: calc(33.3% - 20px);
+    width: calc(33.3% - 10px);
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin-left: 10px;
   }
 
   .latest-image {
     width: 100%;
     max-width: 516px;
-    height: 140px;
+    height: 200px;
     display: block;
   }
 
@@ -493,11 +494,16 @@
     display:flex;
     flex-wrap: wrap;
     flex: 0 1 auto;
+    margin: 0 auto;
   }
 
   .sub-section {
-    width: calc(50% - 20px);
+    width: calc(50% - 10px);
     margin-right: 10px;
     margin-bottom: 30px;
+  }
+
+  .inline {
+    display: inline;
   }
 }
