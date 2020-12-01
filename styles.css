@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
 .navbar {
   position: sticky;
   top: 0px;
@@ -13,8 +18,11 @@
 }
 
 .logo {
+  position: absolute;
+  top:0;
+  left:0;
   width: 100px;
-  height: 40px;
+  height: 50px;
   background-color: black;
   padding: 12px;
 }
@@ -24,9 +32,13 @@
   justify-content: space-between;
 }
 
+.icons {
+  margin-left: auto;
+}
+
 .icons button{
   width: 40px;
-  height: 40px;
+  height: 50px;
   border: none;
   border-left: 1px solid gray;
   cursor: pointer;
@@ -37,6 +49,10 @@
   color: #f42
 }
 
+.gray {
+  color: rgb(160, 160, 160);
+}
+
 .section1 {
   width: 100%;
   padding: 10px;
@@ -45,7 +61,7 @@
 .sec1 {
   position: relative;
   width: 100%;
-  height: 30vh;
+  height: 29vh;
   margin-bottom: 10px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -311,4 +327,68 @@
 
 .footer-img {
   height: 9px;
+}
+
+.nav1 {
+  display: none;
+  width: 100%;
+  max-height: 32px;
+  background-color: #131313;
+  padding: 8px;
+}
+
+.nav-news {
+  margin-left: 100px;
+}
+
+.nav-links {
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  color:rgb(119, 119, 119);
+}
+
+.nav-links:hover {
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.sticky-links {
+  display: none;
+  margin-left:120px;
+  padding-top: 16px;
+}
+
+.st-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
+
+.st-link:hover {
+  color:black;
+}
+
+@media (min-width: 760px) {
+  .nav1 {
+    display: flex;
+  }
+
+  .sticky-links {
+    display:block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .logo {
+    top: -32px;
+    height: 82px;
+    padding-top: 45px;
+  }
 }
