@@ -21,7 +21,7 @@
   justify-content: space-between;
 }
 
-.icons button{
+.icons button {
   width: 40px;
   height: 40px;
   border: none;
@@ -47,11 +47,11 @@
 }
 
 .ele2 {
-    background-image: url("images/Spotify.jpg");
+  background-image: url("images/Spotify.jpg");
 }
 
 .ele3 {
-    background-image: url("images/car.jpg");
+  background-image: url("images/car.jpg");
 }
 
 .text {
@@ -62,7 +62,7 @@
 }
 
 .black {
-  width:100%;
+  width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.37);
 }
@@ -88,6 +88,7 @@
   position: relative;
   margin: 15px 0;
 }
+
 .latest-image {
   width: 75px;
   height: 75px;
@@ -107,72 +108,72 @@
 }
 
 .first-tag {
-    color: #f42;
-    line-height: 18px;
-    font-size: 100%;
+  color: #f42;
+  line-height: 18px;
+  font-size: 100%;
 }
 
 .tag {
-    display: block;
-    padding: 5px 0;
+  display: block;
+  padding: 5px 0;
 }
 
 .funds {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 90%;
-    position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 90%;
+  position: relative;
 }
 
 .funds-img {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    padding: 10px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  padding: 10px;
 }
 
 .funds-title {
-    background-color: #f42;
-    padding-top: 10px;;
-    padding-left: 100px;
-    height: 40px;
-    color: white;
+  background-color: #f42;
+  padding-top: 10px;
+  padding-left: 100px;
+  height: 40px;
+  color: white;
 }
 
 .funds-price {
-    background-color: rgba(248, 133, 113, 0.541);
-    padding-left: 100px;
-    height: 60px;
-    padding-top: 10px;
+  background-color: rgba(248, 133, 113, 0.541);
+  padding-left: 100px;
+  height: 60px;
+  padding-top: 10px;
 }
 
 .funds-price h4 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.25;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .funds-price h5 {
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 1.5;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .funds-links {
-    margin: 10px 0;
-    border-bottom: 1px solid  rgba(253, 165, 149, 0.452);
-    color: #555;
+  margin: 10px 0;
+  border-bottom: 1px solid  rgba(253, 165, 149, 0.452);
+  color: #555;
 }
 
 .funds-links div {
-    margin-bottom: 10px;
-    margin-left: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .funds-footer {
-    display: block;
-    padding-left: 10px;
-    color: #555;
+  display: block;
+  padding-left: 10px;
+  color: #555;
 }
 
 .sub-section {
@@ -180,6 +181,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .sub-sec-img {
   position: relative;
   max-width: 100%;
@@ -191,30 +193,39 @@
 .sub1 {
   background-image: url("images/stocks.jpg");
 }
+
 .sub2 {
   background-image: url("images/Snapchat.jpg");
 }
+
 .sub3 {
   background-image: url("images/dogs.png");
 }
+
 .sub4 {
   background-image: url("images/facebook.jpg");
 }
+
 .sub5 {
   background-image: url("images/designers.jpg");
 }
+
 .sub6 {
   background-image: url("images/google.png");
 }
+
 .sub7 {
   background-image: url("images/money.png");
 }
+
 .sub8 {
   background-image: url("images/humm.jpg");
 }
+
 .sub9 {
   background-image: url("images/politics.jpg");
 }
+
 .headline {
   display: flex;
   justify-content: space-between;
@@ -225,12 +236,13 @@
 
 .headline-head {
   padding: 10px 5px 5px 10px;
-
 }
+
 .headline-img {
   width: 96px;
   height: 96px;
 }
+
 .head-line-tag {
   text-decoration: none;
   color: #f42;
@@ -239,13 +251,15 @@
 .head-lists {
   padding: 6px 0 6px;
   list-style-type: none;
-  border-bottom: 1px solid #aaa
+  border-bottom: 1px solid #aaa;
 }
+
 .head-lists::before {
   content: "\2022";
   color: #f42;
   padding-right: 10px;
 }
+
 .head-lists-tag {
   text-decoration: none;
   color: #555;
