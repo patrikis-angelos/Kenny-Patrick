@@ -36,6 +36,10 @@
   margin-left: auto;
 }
 
+.invert {
+  transform: scaleX(-1);
+}
+
 .icons button {
   width: 40px;
   height: 50px;
@@ -458,7 +462,7 @@
   text-decoration: line-through;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
   .nav1 {
     display: flex;
   }
