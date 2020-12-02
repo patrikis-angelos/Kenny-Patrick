@@ -439,6 +439,11 @@
   display: none;
 }
 
+.no-deco {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (min-width: 760px) {
   .nav1 {
     display: flex;
