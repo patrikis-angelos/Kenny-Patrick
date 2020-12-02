@@ -41,7 +41,7 @@
 }
 
 .icons button {
-  width: 40px;
+  width: 50px;
   height: 50px;
   border: none;
   border-left: 1px solid gray;
@@ -112,7 +112,7 @@
 .section2 {
   display: block;
   width: 100%;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .latest-head {
@@ -200,7 +200,7 @@
 .funds {
   margin-top: 20px;
   margin-bottom: 30px;
-  width: 90%;
+  width: 100%;
   position: relative;
 }
 
@@ -684,5 +684,17 @@
     color: white;
     top: 20px;
     right: 20px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .sticky-links {
+    margin-left: 20px;
+  }
+
+  .nav-news {
+    margin-left: 0;
   }
 }
