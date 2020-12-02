@@ -93,10 +93,12 @@
 .tested > span {
   font-size: 12px;
 }
+
 .text,
 .tested > h5 {
   padding-bottom: 10px;
 }
+
 .black {
   width: 100%;
   height: 100%;
@@ -134,27 +136,35 @@
   width: 75px;
   height: 75px;
 }
+
 .img1 {
   background-image: url("https://cdnp3.stackassets.com/b53e84459db4931ad368383c31a177ae7d423e4a/store/71f01d798ad4ac4cc90188fca7d2f48e9ef08a76f9f1384a475bc0fa7ea7/sale_149481_primary_image.jpg");
 }
+
 .img2 {
   background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
 }
+
 .img3 {
   background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
 }
+
 .img4 {
   background-image: url("https://cdnp0.stackassets.com/a128562cd1aa11af3540443b084537e22e470fea/store/d6cedecfe0c6510eb288464579ab577c9d8ad010a1c3e93d1490104a7338/sale_21097_primary_image.jpg");
 }
+
 .img5 {
   background-image: url("https://cdnp1.stackassets.com/02fad6ebb5e9155d3d4f7bf70f8bdcd3a83e889c/store/f4d7f0d4bfd77a88b4226b7e2f7a0565a4d18afa18fdcfe4a0a35ff72346/sale_148069_primary_image.jpg");
 }
+
 .img6 {
   background-image: url("https://cdnp2.stackassets.com/26a9ae6aafeacc27975cfc33828f6f74e26c7a31/store/7efb8069ef458d0cbd8ff27bf97df99e6f79d27606685170cdc53a98e77d/sale_24208_primary_image.jpg");
 }
+
 .img7 {
   background-image: url("https://cdnp3.stackassets.com/2e48d6d88c977fabc12957eda48ff551dcafec57/store/00da8d07fbefac67f53c9b8d947428a1fc5b56032537455cc1a84d5faff9/sale_118994_primary_image.jpg");
 }
+
 .img8 {
   background-image: url("https://cdnp3.stackassets.com/7c9f53bbe582eb220ac059c428323acfd00ccb5f/store/7f026dd1e255e6642890cf5baa11ed855b19e456aa48d6c0abf1e750b700/sale_56309_primary_image.jpg");
 }
@@ -431,7 +441,7 @@
   display: none;
 }
 
-.late{
+.late {
   display: block;
 }
 
@@ -504,14 +514,17 @@
   .head1 {
     margin-top: 30px;
   }
+
   .section2 {
     width: 100%;
     margin: 10px;
   }
+
   .latest-image {
     width: 100%;
     height: 140px;
   }
+
   .sec-grid1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -524,11 +537,14 @@
     display: block;
     width: auto;
   }
-  
+
   .latest-image1 {
     position: relative;
     width: auto;
     height: 170px;
+    background-size: cover;
+    background-position: 0 100%;
+    padding-top: 74.5%;
   }
 
   .latest-text {
@@ -569,6 +585,7 @@
     width: auto;
     margin-bottom: 40px;
   }
+
   .text {
     width: auto;
   }
@@ -576,11 +593,7 @@
   .inline {
     display: inline;
   }
-  .latest-image1 {
-    background-size: cover;
-    background-position: 0 100%;
-    padding-top: 74.5%;
-  }
+
   .ribbon {
     background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
     background-repeat: no-repeat;
@@ -610,6 +623,7 @@
     max-width: 1192px;
     padding: 0 20px;
   }
+
   .text > h2 {
     font-size: 56px;
     letter-spacing: 0.04em;
@@ -642,13 +656,13 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(170deg,rgba(241, 48, 48, 0.753) 200px, rgba(189, 0, 0, 0.349) 300px, rgba(0, 0, 0, 0.445));
+    background: linear-gradient(170deg, rgba(241, 48, 48, 0.753) 200px, rgba(189, 0, 0, 0.349) 300px, rgba(0, 0, 0, 0.445));
   }
 
   .head-title {
     display: block;
     position: absolute;
-    z-index:1;
+    z-index: 1;
   }
 
   .head-logo {
