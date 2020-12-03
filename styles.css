@@ -50,10 +50,6 @@
   background-color: white;
 }
 
-.orange {
-  color: #f42;
-}
-
 .gray {
   color: rgb(160, 160, 160);
 }
@@ -89,7 +85,6 @@
   position: absolute;
   bottom: 19px;
   padding: 10px;
-  color: white;
   z-index: 1;
 }
 
@@ -116,7 +111,6 @@
 }
 
 .latest-head {
-  color: #f42;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 24px;
@@ -186,7 +180,6 @@
 }
 
 .first-tag {
-  color: #f42;
   line-height: 18px;
   font-size: 100%;
 }
@@ -211,7 +204,6 @@
 }
 
 .funds-title {
-  background-color: #f42;
   padding-top: 10px;
   padding-left: 100px;
   height: 40px;
@@ -309,7 +301,6 @@
   justify-content: space-between;
   width: 100%;
   margin-top: 5px;
-  color: #f42;
 }
 
 .headline-head {
@@ -323,7 +314,6 @@
 
 .head-line-tag {
   text-decoration: none;
-  color: #f42;
 }
 
 .head-lists {
@@ -334,7 +324,6 @@
 
 .head-lists::before {
   content: "\2022";
-  color: #f42;
   padding-right: 10px;
 }
 
