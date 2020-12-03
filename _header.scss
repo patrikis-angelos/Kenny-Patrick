@@ -1,0 +1,50 @@
+  
+  .navbar {
+    @include post(sticky);
+    @include flexed(row);
+    width: $width1;
+    z-index: 2;
+    background-color: $color2;
+      .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        padding: 12px;
+        .sticky-links {
+            display: none;
+            margin-left: 120px;
+            padding-top: 16px;
+            .st-link {
+              margin-right: 10px;
+              text-decoration: none;
+              color: #aaa;
+              font-size: 15px;
+              &:hover {
+                color: black;
+                }
+              }
+          .icons {
+            margin-left: auto;
+            button {
+              width: 50px;
+              height: 50px;
+              border: none;
+              border-left: 1px solid gray;
+              cursor: pointer;
+              font-size: 20px;
+              background-color: $color2;
+              .orange {
+                color: $color1;
+              }
+              
+              .gray {
+                color: rgb(160, 160, 160);
+              }
+                        }
+          }
+            }
+        }
+      }
