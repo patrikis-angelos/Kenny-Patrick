@@ -1,0 +1,32 @@
+$color1: #f42;
+$color2: white;
+$color3: black;
+$color4: #555;
+$width1: 100%;
+$flex: flex;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+  @mixin post($position) {
+    position: $position;
+    top: 0;
+  }
+  
+  @mixin flexed($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+  }
+
+  @mixin grid {
+	display: grid;
+  }
+@import "header";
+@import "section";
+@import "latestnews";
+@import "funds";
+@import "latestfund";
