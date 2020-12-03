@@ -1,0 +1,91 @@
+@import "_mixin";
+
+@orange: #f42;
+@gap: 10px;
+@tablet: ~"(min-width: 768px)";
+@desktop: ~"(min-width: 1024px)";
+
+.orange {
+    color: @orange;
+}
+
+.latest-head {
+    color: @orange;
+}
+
+.first-tag {
+    color: @orange;
+}
+
+.funds-title {
+    background-color: @orange;
+}
+
+.head-line-tag {
+    color: @orange;
+}
+
+.head-lists::before {
+    color: @orange;
+}
+
+.tested {
+    > h5 {
+        padding-bottom: @gap;
+    }
+}
+
+.funds-links {
+    margin: @gap 0;
+    border-bottom: 1px solid  rgba(253, 165, 149, 0.452);
+    color: #555;
+    div {
+        margin-bottom: @gap;
+        margin-left: @gap;
+    }
+}
+
+.nav1 {
+    display: none;
+    width: 100%;
+    max-height: 32px;
+    background-color: #131313;
+    padding: 8px;
+    @media @tablet {
+        display: flex;
+    }
+}
+
+.sub-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    @media @tablet {
+        width: auto;
+        margin-bottom: 40px;
+    }
+    @media @desktop {
+        margin-top: 15px;
+    }
+}
+
+.flex {
+    .flex_space();
+}
+
+.latest-news {
+    .flex_space();
+    position: relative;
+    margin: 15px 0;
+    @media @tablet {
+        display: block;
+        width: auto;
+    }
+}
+
+.headline {
+    .flex_space();
+    color: @orange;
+    width: 100%;
+    margin-top: 5px;
+  }

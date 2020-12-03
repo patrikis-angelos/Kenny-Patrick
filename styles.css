@@ -27,11 +27,6 @@
   padding: 12px;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
 .icons {
   margin-left: auto;
 }
@@ -48,10 +43,6 @@
   cursor: pointer;
   font-size: 20px;
   background-color: white;
-}
-
-.orange {
-  color: #f42;
 }
 
 .gray {
@@ -98,8 +89,7 @@
   font-size: 12px;
 }
 
-.text,
-.tested > h5 {
+.text {
   padding-bottom: 10px;
 }
 
@@ -116,7 +106,6 @@
 }
 
 .latest-head {
-  color: #f42;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 24px;
@@ -126,13 +115,6 @@
 
 .sub-sec-title {
   margin-top: 20px;
-}
-
-.latest-news {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  margin: 15px 0;
 }
 
 .latest-image {
@@ -186,7 +168,6 @@
 }
 
 .first-tag {
-  color: #f42;
   line-height: 18px;
   font-size: 100%;
 }
@@ -211,7 +192,6 @@
 }
 
 .funds-title {
-  background-color: #f42;
   padding-top: 10px;
   padding-left: 100px;
   height: 40px;
@@ -237,27 +217,10 @@
   line-height: 1.5;
 }
 
-.funds-links {
-  margin: 10px 0;
-  border-bottom: 1px solid  rgba(253, 165, 149, 0.452);
-  color: #555;
-}
-
-.funds-links div {
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-
 .funds-footer {
   display: block;
   padding-left: 10px;
   color: #555;
-}
-
-.sub-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .sub-sec-img {
@@ -304,14 +267,6 @@
   background-image: url("images/politics.jpg");
 }
 
-.headline {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 5px;
-  color: #f42;
-}
-
 .headline-head {
   padding: 10px 5px 5px 10px;
 }
@@ -323,7 +278,6 @@
 
 .head-line-tag {
   text-decoration: none;
-  color: #f42;
 }
 
 .head-lists {
@@ -334,7 +288,6 @@
 
 .head-lists::before {
   content: "\2022";
-  color: #f42;
   padding-right: 10px;
 }
 
@@ -406,14 +359,6 @@
   height: 9px;
 }
 
-.nav1 {
-  display: none;
-  width: 100%;
-  max-height: 32px;
-  background-color: #131313;
-  padding: 8px;
-}
-
 .nav-news {
   margin-left: 100px;
 }
@@ -476,10 +421,6 @@
 }
 
 @media (min-width: 768px) {
-  .nav1 {
-    display: flex;
-  }
-
   .sticky-links {
     display: block;
   }
@@ -554,11 +495,6 @@
     position: relative;
   }
 
-  .latest-news {
-    display: block;
-    width: auto;
-  }
-
   .latest-image1 {
     position: relative;
     width: auto;
@@ -600,11 +536,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
-  }
-
-  .sub-section {
-    width: auto;
-    margin-bottom: 40px;
   }
 
   .text {
@@ -667,10 +598,6 @@
 
   .latest-head-spans {
     margin-top: 10px;
-  }
-
-  .sub-section {
-    margin-top: 15px;
   }
 
   .sub-sec-img {

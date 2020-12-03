@@ -1,0 +1,98 @@
+.orange {
+  color: #f42;
+}
+
+.latest-head {
+  color: #f42;
+}
+
+.first-tag {
+  color: #f42;
+}
+
+.funds-title {
+  background-color: #f42;
+}
+
+.head-line-tag {
+  color: #f42;
+}
+
+.head-lists::before {
+  color: #f42;
+}
+
+.tested > h5 {
+  padding-bottom: 10px;
+}
+
+.funds-links {
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(253, 165, 149, 0.452);
+  color: #555;
+}
+
+.funds-links div {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.nav1 {
+  display: none;
+  width: 100%;
+  max-height: 32px;
+  background-color: #131313;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  .nav1 {
+    display: flex;
+  }
+}
+
+.sub-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .sub-section {
+    width: auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sub-section {
+    margin-top: 15px;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-news {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 15px 0;
+}
+
+@media (min-width: 768px) {
+  .latest-news {
+    display: block;
+    width: auto;
+  }
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+  color: #f42;
+  width: 100%;
+  margin-top: 5px;
+}
