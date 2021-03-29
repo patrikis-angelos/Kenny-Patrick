@@ -18,9 +18,8 @@ https://patrick-angelos.github.io/Kenny-Patrick/
 
 Clone:
 
-Clone the repository from the Github to your local folder
-using commads
-Git clone git@github.com:patrick-angelos/Kenny-Patrick.git <your local Git Directory>
+Clone the repository from Github with:
+- `git clone git@github.com:patrick-angelos/Kenny-Patrick.git`
 
 
 
